@@ -40,7 +40,7 @@ describe('ZaptaTech-Task', function () {
   })
 
   //For Verification of text in "The Amenities" section
-  it('Verifying "The Stay" containing "Wifi", "Work Area", "Full Kitchen" Text & ScreenShot', function () {
+  it('Verifying "The Amenities" containing "Wifi", "Work Area", "Full Kitchen" Text & ScreenShot', function () {
     cy.contains('h4', 'Midland Apartments').click()
   cy.contains('Wifi').should('be.visible')
   cy.contains('Work Area').should('be.visible')
